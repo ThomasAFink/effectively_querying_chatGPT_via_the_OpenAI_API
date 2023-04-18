@@ -38,8 +38,7 @@ Self-attention, is a form of soft attention, as it computes attention weights us
 
 When visualizing hard versus soft attention, it's helpful to think of them as different ways of assigning importance or weights to elements in a sequence (e.g., words in a sentence).
 
-Soft Attention:
-Imagine you have a sentence, "The cat is sitting on the mat." When applying soft attention, you might assign continuous importance weights to each word, with some words having more weight than others. These weights typically sum to 1. For example:
+For soft attention imagine you have a sentence, "The cat is sitting on the mat." When applying soft attention, you might assign continuous importance weights to each word, with some words having more weight than others. These weights typically sum to 1. For example:
 
         The (0.05)
         cat (0.20)
@@ -50,8 +49,7 @@ Imagine you have a sentence, "The cat is sitting on the mat." When applying soft
         mat (0.30)
 In this example, the words "sitting," "cat," and "mat" are assigned more importance than the other words. The continuous weights enable the model to learn varying levels of importance for each word.
 
-Hard Attention:
-Now consider the same sentence, "The cat is sitting on the mat." With hard attention, you assign binary importance weights to each word, indicating whether it should be attended to (1) or not (0). For example:
+For hard attention consider the same sentence, "The cat is sitting on the mat." With hard attention, you assign binary importance weights to each word, indicating whether it should be attended to (1) or not (0). For example:
 
         The (0)
         cat (1)
