@@ -64,7 +64,7 @@ In this example, only the words "cat," "sitting," and "mat" are attended to, whi
 
 Much of the provided explanation is based on inferences about the GPT-3 model's workings, drawing from the underlying Transformer architecture and available information from research papers and documentation. It is important to note that the specific implementation details and optimizations within GPT-3 are not fully disclosed, and the given explanations might not cover all aspects of the model's behavior.
 
-## Sort Explanation of the Code
+## Short Explanation of the Code
 
 So basically ChatGPT is a wee bit more creative database you can use to help approach problems a traditional search engine cannot solve. For example maybe you need a description of something or a third opinion. Another usecase is of course fictional writing. Any factual answers received should be taken with a grain of salt at this point because they are still often incorrect. The following code tries to demonstrate how query ChatGPT more effectively.
 
@@ -104,6 +104,7 @@ You don't need a ChatGPT pro account to access the api. They are two different p
 You can get an api token at: https://platform.openai.com/account/api-keys 
 ![image](https://github.com/ThomasAFink/effectively_querying_chatGPT_via_the_OpenAI_API/blob/main/img/key.png)
 Each query costs a small few cent fee but the first $18.00 are a free trial: https://openai.com/pricing
+
 Monitor your usage at: https://platform.openai.com/account/usage
 ![image](https://github.com/ThomasAFink/effectively_querying_chatGPT_via_the_OpenAI_API/blob/main/img/pricing.png)
 
